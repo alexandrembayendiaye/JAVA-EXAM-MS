@@ -12,9 +12,12 @@ Telechargement de la dependance des logs
 
 ![a02](https://github.com/user-attachments/assets/afaa1034-153a-485e-bc2a-5acb7c0ec6c3)
 
-Configuration des logs
+Configuration des logs et du Cors qui permettra la communication avec le Front end
 
 ![a03](https://github.com/user-attachments/assets/291400aa-2dde-406c-9a8e-d21e221b3288)
+
+![a16](https://github.com/user-attachments/assets/71a4cabd-0356-44e6-8041-248bac8269f1)
+
 
 Gestion des exceptions
 
