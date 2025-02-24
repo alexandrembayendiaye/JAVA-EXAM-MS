@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/academic_db_2
+    username: postgres
+    password: Adveniat66
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update  # Pour la création automatique des tables (peut être set à 'validate' en prod)
+    show-sql: true      # Pour afficher les requêtes SQL exécutées
+    properties:
+      hibernate:
+        format_sql: true # Affichage formaté des requêtes SQL
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+  file:
+    name: logs/logs.log
